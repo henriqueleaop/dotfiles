@@ -3,3 +3,5 @@
 	email = henrique.lp2006@gmail.com
 [init]
 	defaultBranch = main
+[credential]
+	helper = cache --timeout=28800
