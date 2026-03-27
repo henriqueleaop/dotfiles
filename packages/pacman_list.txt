@@ -1,6 +1,7 @@
 7zip
 android-tools
 android-udev
+ardour
 ark
 audacity
 aurorae
@@ -19,6 +20,8 @@ discover
 docker
 docker-compose
 dolphin
+dotnet-runtime
+dotnet-sdk
 drkonqi
 efibootmgr
 ethtool
@@ -35,6 +38,7 @@ fwupd
 fzf
 gamemode
 git
+github-cli
 gparted
 grub
 gst-libav
@@ -55,6 +59,7 @@ kdeplasma-addons
 kgamma
 kglobalacceld
 kid3
+kid3-qt
 kinfocenter
 kmenuedit
 konsole
@@ -135,6 +140,7 @@ rclone
 reflector
 rkhunter
 rsync
+scrcpy
 sddm
 sddm-kcm
 soundfont-fluid
@@ -151,10 +157,12 @@ tree
 ttf-firacode-nerd
 unzip
 usbutils
+v4l2loopback-dkms
 viewnior
 vlc
 wacomtablet
 wev
+wireshark-qt
 wl-clipboard
 wofi
 xdg-desktop-portal-kde
