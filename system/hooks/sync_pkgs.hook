@@ -1,0 +1,12 @@
+[Trigger]
+Operation = Install
+Operation = Remove
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Disparando sync-pkgs (dotfiles)...
+When = PostTransaction
+Exec = /usr/bin/sudo -u liceki /usr/bin/fish -c "sync-pkgs"
+

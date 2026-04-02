@@ -1,0 +1,75 @@
+# OS / File System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.directory
+
+# Editores / IDEs (Evita commitar configurações locais de workspace)
+*.swp
+*.swo
+*~
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Variáveis de Ambiente e Credenciais (Segurança crítica)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.p12
+*.cer
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+.tox/
+
+# Node / JavaScript
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+.pnpm-debug.log*
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# .NET / C#
+bin/
+obj/
+TestResults/
+*.userprefs
+*.user
+
+# Logs genéricos e Dumps
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+core.*
