@@ -17,7 +17,6 @@ breeze-gtk
 breeze-plymouth
 ddrescue
 discord
-discover
 docker
 docker-compose
 dolphin
