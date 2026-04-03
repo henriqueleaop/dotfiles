@@ -17,6 +17,7 @@ breeze-gtk
 breeze-plymouth
 ddrescue
 discord
+discover
 docker
 docker-compose
 dolphin
@@ -34,7 +35,6 @@ fish
 flatpak-kcm
 fwupd
 fzf
-gamemode
 git
 github-cli
 glow
@@ -74,10 +74,6 @@ kwin
 kwin-x11
 kwrited
 layer-shell-qt
-lib32-gamemode
-lib32-nvidia-utils
-lib32-opencl-nvidia
-lib32-vulkan-icd-loader
 libkscreen
 libksysguard
 libldm
@@ -96,12 +92,9 @@ neovim
 networkmanager
 npm
 ntfs-3g
-nvidia-open
-nvidia-utils
 obs-studio
 ocean-sound-theme
 okular
-opencl-nvidia
 openrgb
 openssh
 os-prober
