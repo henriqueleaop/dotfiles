@@ -1,12 +1,10 @@
 [Trigger]
 Operation = Install
 Operation = Remove
-Operation = Upgrade
 Type = Package
 Target = *
 
 [Action]
-Description = Disparando sync-pkgs (dotfiles)...
+Description = Sincronizando listas de pacotes com o dotfiles (Blacklist ativa)...
 When = PostTransaction
-Exec = /usr/bin/sudo -u liceki /usr/bin/fish -c "sync-pkgs"
-
+Exec = /usr/bin/sudo -u liceki /home/liceki/.local/bin/sync-pkgs.fish
