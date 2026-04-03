@@ -1,0 +1,56 @@
+# ===============================================================
+# BLACKLIST DE PACOTES (UNIVERSAL IGNORE)
+# Este arquivo filtra pacotes específicos de hardware e bloatware
+# para manter o repositório de dotfiles limpo e portável.
+# ===============================================================
+
+# --- DRIVERS DE VÍDEO (HARDWARE SPECIFIC) ---
+^nvidia
+^lib32-nvidia
+^xf86-video-
+^vulkan-intel
+^vulkan-radeon
+^vulkan-mesa-layers
+^intel-media-driver
+^libva-intel-driver
+^mesa-vdpau
+^lib32-vulkan-
+^lib32-mesa
+
+# --- PROCESSADOR E MICROCODE ---
+^intel-ucode
+^amd-ucode
+
+# --- VIRTUALIZAÇÃO ---
+^virtualbox
+^vmware
+^qemu
+^virt-manager
+
+# --- BLOATWARE KDE PLASMA ---
+^discover$
+^drkonqi$
+^plasma-welcome$
+^oxygen$
+^oxygen-sounds$
+^khelpcenter$
+^konsole-intrinsic-scripts  # Caso queira manter apenas sua config
+
+# --- PERIFÉRICOS E SERVIÇOS ESPECÍFICOS ---
+^cups                # Impressoras
+^print-manager       # Impressoras
+^hplip               # Impressoras HP
+^wacomtablet         # Mesas digitalizadoras
+^fprintd             # Leitor de digital
+
+# --- DOPAMINE BLOCKLIST (NON-ESSENTIAL) ---
+^steam
+^lutris$
+^heroic-games-launcher
+^obs-studio$          # Frequentemente exige drivers de vídeo específicos
+
+# --- KERNELS ESPECÍFICOS ---
+^linux-lts
+^linux-zen
+^linux-hardened
+^linux-headers
