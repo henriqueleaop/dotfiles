@@ -17,21 +17,34 @@ if not test -f "$IGNORE_FILE"
     touch "$IGNORE_FILE"
 end
 
+# Cria uma versão temporária e limpa da blacklist (sem # e sem linhas vazias)
+set CLEAN_IGNORE "/tmp/clean_ignore.txt"
+grep -v -E '^\s*(#|$)' "$IGNORE_FILE" > "$CLEAN_IGNORE"
+
 # 1. Extrai pacotes nativos (Pacman), ignora a blacklist e salva
-pacman -Qqen | grep -v -E -f "$IGNORE_FILE" > "$PACKAGES_DIR/pacman_list.txt"
+pacman -Qqen | grep -v -E -f "$CLEAN_IGNORE" > "$PACKAGES_DIR/pacman_list.txt"
 
 # 2. Extrai pacotes da comunidade (AUR/Yay), ignora a blacklist e salva
-pacman -Qqem | grep -v -E -f "$IGNORE_FILE" > "$PACKAGES_DIR/yay_list.txt"
+pacman -Qqem | grep -v -E -f "$CLEAN_IGNORE" > "$PACKAGES_DIR/yay_list.txt"
 
 # 3. Extrai Flatpaks (não usa a blacklist do pacman)
 flatpak list --app --columns=application > "$PACKAGES_DIR/flatpak_list.txt"
 
+# Limpa o arquivo temporário
+rm "$CLEAN_IGNORE"
+
 # ==============================================================================
-# Opcional: Auto-Commit
-# Descomente as linhas abaixo se quiser que o script commite as mudanças
-# automaticamente sempre que for acionado pelo hook do pacman.
+# Auto-Commit
+# Commita e envia as mudanças automaticamente se houver alteração real nas listas
 # ==============================================================================
 cd "$DOTFILES_DIR"
 git add packages/
-git commit -m "chore(packages): auto-sync pacman, yay and flatpak lists"
-git push 
+
+# Verifica se o git add colocou algo novo no stage (se a lista mudou)
+if not git diff --cached --quiet
+    git commit -m "chore(packages): auto-sync pacman, yay and flatpak lists"
+    git push
+else
+    # Opcional: Descomente a linha abaixo se quiser ver essa mensagem no log do pacman
+    echo "Nenhuma alteração nas listas de pacotes. Auto-commit ignorado."
+end
