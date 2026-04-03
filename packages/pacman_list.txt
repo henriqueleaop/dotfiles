@@ -116,6 +116,7 @@ plymouth-kcm
 polkit-kde-agent
 powerdevil
 print-manager
+protonmail-bridge
 python-langdetect
 python-pip
 python-pipx
