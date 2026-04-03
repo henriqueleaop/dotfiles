@@ -16,6 +16,8 @@
 ^mesa-vdpau
 ^lib32-vulkan-
 ^lib32-mesa
+^lib32-gamemode
+^lib32-opencl-nvidia 
 
 # --- PROCESSADOR E MICROCODE ---
 ^intel-ucode

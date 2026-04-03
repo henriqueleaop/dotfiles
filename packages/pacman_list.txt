@@ -15,6 +15,7 @@ bluez-utils
 breeze
 breeze-gtk
 breeze-plymouth
+cowsay
 ddrescue
 discord
 docker
@@ -72,7 +73,6 @@ kwin
 kwin-x11
 kwrited
 layer-shell-qt
-lib32-gamemode
 lib32-opencl-nvidia
 libkscreen
 libksysguard
