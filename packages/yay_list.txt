@@ -2,6 +2,7 @@ anki-bin
 emote
 gcalcli
 noisetorch
+quarto-cli-bin
 simple-mtpfs
 unetbootin
 v4l2loopback-dc-dkms
