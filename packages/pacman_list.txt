@@ -53,6 +53,7 @@ kde-gtk-config
 kdecoration
 kdenlive
 kdeplasma-addons
+kdialog
 kgamma
 kglobalacceld
 kid3
