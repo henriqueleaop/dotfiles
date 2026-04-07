@@ -1,5 +1,8 @@
-function foco --description 'Timer de Deep Work com alerta visual no KDE'
+function foco --description 'Timer de Deep Work com interrupção forçada no KDE'
     clear
-    termdown $argv[1]m
-    and kdialog --title "SISTEMA DE FOCO" --msgbox "CICLO CONCLUÍDO: $argv[1] minutos. Afaste-se da tela."
+    termdown $argv[1]m; 
+
+    notify-send "CICLO FINALIZADO" "Saia da frente do PC." --urgency=critical --icon=dialog-warning
+    
+    kdialog --active-window --title "SISTEMA DE FOCO" --msgbox "O TEMPO ACABOU. LEVANTE-SE."
 end
