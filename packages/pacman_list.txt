@@ -151,5 +151,6 @@ wireshark-qt
 wl-clipboard
 wofi
 xdg-desktop-portal-kde
+yazi
 yt-dlp
 zip
