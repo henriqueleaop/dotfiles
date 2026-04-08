@@ -2,6 +2,7 @@ anki-bin
 emote
 gcalcli
 noisetorch
+onlyoffice-bin
 quarto-cli-bin
 simple-mtpfs
 unetbootin

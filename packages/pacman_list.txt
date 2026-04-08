@@ -143,8 +143,6 @@ tcl
 termdown
 tk
 tree-sitter-cli
-ttf-carlito
-ttf-dejavu
 ttf-firacode-nerd
 unzip
 usbutils
