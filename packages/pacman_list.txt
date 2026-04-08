@@ -139,7 +139,6 @@ strace
 sudo
 systemsettings
 task
-tauon-music-box
 tcl
 termdown
 tk
