@@ -18,6 +18,7 @@ breeze-plymouth
 ddrescue
 discord
 docker
+docker-buildx
 docker-compose
 dolphin
 efibootmgr
