@@ -10,6 +10,7 @@ base
 base-devel
 bat
 beets
+bind
 bluedevil
 bluez-utils
 breeze
