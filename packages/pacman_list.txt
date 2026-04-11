@@ -85,6 +85,7 @@ linux-firmware
 man-db
 man-pages
 milou
+mpv
 mtr
 ncdu
 neovim
