@@ -4,6 +4,7 @@ android-tools
 android-udev
 ardour
 ark
+arrow
 audacity
 aurorae
 base
