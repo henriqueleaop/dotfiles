@@ -3,6 +3,7 @@ emote
 gcalcli
 noisetorch
 onlyoffice-bin
+pycharm
 quarto-cli-bin
 simple-mtpfs
 unetbootin
