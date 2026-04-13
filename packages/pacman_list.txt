@@ -16,6 +16,7 @@ bluez-utils
 breeze
 breeze-gtk
 breeze-plymouth
+cmake
 cython
 ddrescue
 discord
