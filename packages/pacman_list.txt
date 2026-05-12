@@ -18,6 +18,7 @@ bluez-utils
 breeze
 breeze-gtk
 breeze-plymouth
+chromium
 cmake
 cython
 ddrescue
