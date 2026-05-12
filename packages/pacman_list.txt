@@ -87,7 +87,6 @@ libplasma
 libvdpau-va-gl
 linux
 linux-firmware
-lsof
 man-db
 man-pages
 milou
