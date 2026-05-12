@@ -5,6 +5,7 @@ android-udev
 ardour
 ark
 aspnet-runtime
+aspnet-targeting-pack
 audacity
 aurorae
 base
