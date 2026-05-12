@@ -4,6 +4,7 @@ android-tools
 android-udev
 ardour
 ark
+aspnet-runtime
 audacity
 aurorae
 base
@@ -24,6 +25,7 @@ docker
 docker-buildx
 docker-compose
 dolphin
+dotnet-sdk
 efibootmgr
 ethtool
 ex-vi-compat
