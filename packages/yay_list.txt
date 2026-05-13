@@ -4,6 +4,8 @@ gcalcli
 jetbrains-toolbox
 noisetorch
 onlyoffice-bin
+openssl-1.1
+openssl-1.1-debug
 pycharm
 quarto-cli-bin
 simple-mtpfs
