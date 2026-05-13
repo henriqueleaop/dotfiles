@@ -21,6 +21,7 @@ breeze-plymouth
 chromium
 cmake
 cython
+dbeaver
 ddrescue
 discord
 docker
