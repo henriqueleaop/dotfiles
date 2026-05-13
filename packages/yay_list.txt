@@ -1,6 +1,7 @@
 anki-bin
 emote
 gcalcli
+jetbrains-toolbox
 noisetorch
 onlyoffice-bin
 pycharm
