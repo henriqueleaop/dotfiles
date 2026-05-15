@@ -5,6 +5,7 @@ android-udev
 ardour
 ark
 aspnet-runtime
+aspnet-runtime-8.0
 aspnet-targeting-pack
 audacity
 aurorae
@@ -29,6 +30,7 @@ docker-buildx
 docker-compose
 dolphin
 dotnet-sdk
+dotnet-sdk-8.0
 efibootmgr
 ethtool
 ex-vi-compat
