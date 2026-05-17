@@ -29,6 +29,7 @@ docker
 docker-buildx
 docker-compose
 dolphin
+dosfstools
 dotnet-sdk
 dotnet-sdk-8.0
 efibootmgr
